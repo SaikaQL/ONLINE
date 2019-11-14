@@ -1,0 +1,359 @@
+/* Formatierung für Header und Allgemeines*/
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    color: #3C3C3B;
+}
+
+a{
+    color: #333333;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+	height: 150px;
+    background-color: white;
+    z-index: 1000;
+}
+
+.Logo{
+    display: inline-block;
+    height: 100px;
+    width: 25%;
+    padding-top: 15px;
+}
+
+.HalloUser{
+    width: 200px;
+    display: inline-block;
+    margin-right: 30px;
+    float: right;
+    text-decoration: none;
+    margin-bottom: -20px;
+}
+
+nav{
+    height: 100px;
+    display: block;
+    padding-top: 50px;
+    margin-bottom: -50px;
+    float: right;   
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+}
+
+nav li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;    
+}
+
+nav a {
+    min-width: 15px;
+    text-decoration: none;
+    color: #3C3C3B;
+    text-align: center;
+    font-size: 180%;
+    font-variant: small-caps;
+}
+
+nav a:hover {
+    color: #999999;
+}
+
+.highlight-button{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 9px;
+    background-color: #009FE3;
+}
+
+.highlight-button a{
+    color: white;
+}
+
+.highlight-button a:hover{
+    color: #333333;
+}
+
+div.abstandhalter{
+    background-color: #333333;
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size: 100%;
+    margin-top: -65px;
+
+}
+
+div.nahtloser-container{
+    position: none;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#slider{
+    width: 100%;
+    margin-top: 150px;
+    background-size: cover;
+
+}
+
+/* Formatierung für Footer */
+
+footer{
+    position: static;
+    height: 200px;
+    width: 100%;
+    background-color: #3C3C3B;
+    padding-top: 100px;
+       
+}
+
+.footer-spalten{
+    display: block;
+    text-decoration: none;
+    width: 70%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.footer-spalte{
+    display: block;
+    min-width: 15%;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+    padding: -30px;
+    border-left: 1px solid white;    
+    margin-left: 60px;
+}
+
+.footer-spalte ul{
+    padding-left: 8px;
+}
+
+.footer-spalte li{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px; 
+       
+}
+
+.footer-spalte a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.footer-spalte a:hover {
+    color: white;
+}
+
+#newsletteranmeldefeld{
+    width: 250px;
+    height: 20px;
+    padding: 3px;
+}
+
+#payments{
+    height: 30px;
+}
+
+/* Formatierung für Content Startseite */
+
+hr {
+    background: #333;
+    border: none;
+    color: #333;
+    height: 1px;
+    width: 80%;
+}
+
+div.content{
+    width: 70%;
+    min-height: 500px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    margin-bottom: -80px;
+    text-align: center;
+    background-color: white;    
+    border-color: #BBBBBB;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div.randabstand{
+    margin: 10px;
+}
+
+h2{
+    font-size: 300%;
+    line-height: 1.5em;
+    display: inline-block;
+}
+
+h6{
+    font-weight: 50;
+    font-size: 170%; 
+    text-align: right;
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-left: 300px;
+}
+
+h3{
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 200%;
+}
+
+h4{
+    font-variant: small-caps;
+    font-size: 250%;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-weight: 150;
+}
+
+.hintergrund_login{
+    display: flex;
+    background-color: #3C3C3B;
+    width: 100%;
+    min-height: 200px;
+
+}
+
+.shadowlayer_login{
+    vertical-align: middle;
+    background-color: rgba(250,250,250,0.5);
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+
+.loginfelder{
+    opacity: 1;
+    width: 400px;
+    font-size: 1.5em; 
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid white;;
+    background-color: white;
+    background-image: linear-gradient(to top, gainsboro 0%, white 90%);
+    font-family: inherit;
+    font-weight:300; 
+}
+/*###################################################################################################################################################################################################################################################################################*/
+/*###################################################################################################################################################################################################################################################################################*/
+
+.registrierfelder{
+    opacity: 1;
+    width: 400px;
+    font-size: 1.5em; 
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid white;;
+    background-color: white;
+    background-image: linear-gradient(to top, gainsboro 0%, white 90%);
+    font-family: inherit;
+    font-weight:300;
+}
+
+.registrierfeldernebeneinander{
+    float:center ;
+    width: 400px;
+    font-size: 1.5em;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid white;;
+    background-color: white;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top, gainsboro 0%, white 90%);
+    font-family: inherit;
+    font-weight:300;
+}
+
+.registrierfeldernebeneinander:last-child {
+    margin-right:0;
+}
+
+.registrierfeldernebeneinander_ueberschrift {
+    float: center ;
+    font-size: 1.5em;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: inherit;
+    font-weight:300;
+}
+
+.registrierfeldernebeneinander_ueberschrift:last-child {
+    margin-right:0;
+}
+
+.registrierfelder_ganze_zeile {
+    opacity: 1;
+    width: 822px;
+    font-size: 1.5em; 
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid white;;
+    background-color: white;
+    background-image: linear-gradient(to top, gainsboro 0%, white 90%);
+    font-family: inherit;
+    font-weight:300;
+    margin-right:27.5px;
+}
+
+
+/*###################################################################################################################################################################################################################################################################################*/
+/*###################################################################################################################################################################################################################################################################################*/
+
+.submit_button{
+    padding: 10px;
+    background-color: #009FE3;
+    color: white;
+    font-variant: small-caps;
+    font-size: 150%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+}
+
+.shadowlayer_login a{
+    color: white;
+}
+
+.shadowlayer_login hr{
+    background: #333;
+    border: none;
+    color: #333;
+    height: 1px;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
