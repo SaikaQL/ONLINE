@@ -2,7 +2,7 @@
 
     /*Verbindung mit der Datenbank*/
 
-    $db_link = mysqli_connect('localhost', 'root', '#Adler007', 'webshop');
+    $db_link = mysqli_connect('localhost', 'root', '2xlBo0wQbnft', 'webshop');
 
     if(!$db_link)
     {
